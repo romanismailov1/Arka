@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header-list__item{
+    margin-right: 50px;
+}
+.header-list__link, .header-account__link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    color: #011F3A;
+    text-decoration: none;
+}
+.header-list__link:hover{
+    border-bottom:1px solid #011F3A;
+}
+.header-account{
+    display: flex;
+    align-items: center;
+}
+.account-image{
+    margin-left: 25px;    
+}
+.main{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: #F2AE4D;
+}
+.main-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-title{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #011F3A;
+    margin-bottom: 33px;
+}
+.main-descr{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #011F3A;
+    margin-bottom: 14px;
+}
+.main-button{
+    padding: 19px 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #3D5675;
+    border-radius: 44px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.certificate{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.certificate-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.certificate-block{
+    display: flex;
+    align-items: center;
+}
+.certificate-image{
+    margin-right: 16px;
+}
+.certificate-text{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.6px;
+    color: #A1A1A1;
+}
+.products{
+    padding-top: 57px;
+    padding-bottom: 49px;
+    background: #EEEEEE;
+}
+.products-block__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 63px;
+}
+.products-title{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #011F3A;
+}
+.products-button{
+    padding: 13px 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #3D5675;
+    border-radius: 44px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.products-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 45px;
+}
+.products-card{
+    padding: 0 25px 4px 25px;
+    width: 400px;
+    background: #ffffff;
+}
+.products-card__title{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.36px;
+    color: #011F3A;
+    margin-bottom: 8px;
+}
+.products-card__block{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.products-descr, .products-price{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #777777;
+}
+.products-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.products-bottom__title{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    color: #A1A1A1;
+    margin-right: 16px;
+}
+.products-bottom__button{
+    padding: 13px 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    color: #3D5675;
+    background: #FFFFFF;
+    border-radius: 44px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.fast{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.fast-main{
+    padding-top: 88px;
+    padding-bottom: 88px;
+    background: #72BDA3;
+    box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+    text-align: center;
+}
+.fast-title{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    color: #011F3A;
+    margin-bottom: 46px;
+}
+.fast-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 74px;
+}
+.fast-block{
+    text-align: center;
+}
+.fast-block__title{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.36px;
+    color: #011F3A;
+    margin-bottom: 10px;
+}
+.fast-block__descr{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3D5675;
+}
+.fast-button{
+    padding: 13px 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #3D5675;
+    border-radius: 44px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.advantage{
+    padding-top: 87px;
+    padding-bottom: 100px;
+}
+.advantage-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.advantage-title{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 41px;
+    color: #011F3A;
+    margin-bottom: 82px;
+}
+.advantage-block__title{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.36px;
+    color: #011F3A;
+    margin-bottom: 12px;
+}
+.advantage-block__descr{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #A1A1A1;
+}
